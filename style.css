@@ -1,0 +1,49 @@
+body {
+    background-color: #413f3f;
+    color: antiquewhite;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.cabecalho{
+    text-align:left;
+}
+
+#banner{
+    height: 25rem;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #F8FAFD;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+p {
+    text-align: center;
+}
+
+#missao{
+    color: rgb(224, 94, 120);
+}
+
+.beneficios{
+    background-color: rgb(154, 120, 120);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+
+.txt-beneficios{
+    text-align: center;
+}
+ul{
+    display: inline-block; 
+    vertical-align: top; 
+}
+.img-secundaria{
+    padding-left: 20%;
+    
+}
