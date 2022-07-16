@@ -5,11 +5,50 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-.cabecalho{
-    text-align:left;
+.cabecalho {
+    text-align: left;
 }
 
-#banner{
+header {
+    background-color: rgb(154, 120, 120);
+    box-shadow: 10px 10px 10px rgba(43, 42, 42, 0.588);
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 0 0 25px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+nav a:hover {
+    color: hotpink;
+}
+
+nav {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.h1-logo {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#banner {
     height: 25rem;
     width: 100%;
 }
@@ -17,33 +56,77 @@ body {
 h1 {
     text-align: center;
     color: #F8FAFD;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
 
 }
 
-p {
+.txt-index {
     text-align: center;
 }
 
-#missao{
+#missao {
     color: rgb(224, 94, 120);
 }
 
-.beneficios{
+.beneficios {
     background-color: rgb(154, 120, 120);
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
 }
 
-.txt-beneficios{
+.txt-beneficios {
     text-align: center;
 }
-ul{
-    display: inline-block; 
-    vertical-align: top; 
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 25px;
 }
-.img-secundaria{
+
+.img-secundaria {
     padding-left: 20%;
-    
+
+}
+
+/* css da page produtos */
+
+.produtos {
+    display: inline-block;
+    margin: 50px 10px 10px 200px;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.produtos h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.produtos-valor {
+    font-weight: bold;
+}
+
+.produtos-desc {
+    margin-top: 15px;
+}
+
+.produtos-desc2 {
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 12%;
+    text-align: center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+footer p{
+    font-size: 13px;
 }
