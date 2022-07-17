@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabeleleira Leila - Contatos</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-contatos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,9 +17,11 @@
 
 <body>
     <header>
-        <h1 class="h1-logo">
-            <img src="Leila.jpg" class="logo">
-        </h1>
+        <a href="index.html">
+            <h1 class="h1-logo">
+                <img src="Leila.jpg" class="logo">
+            </h1>
+        </a>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -28,6 +30,82 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" class="input-padrao" required>
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" placeholder="email@email.com" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" placeholder="(00) 0000-0000" required>
+
+            <label for="celular">Celular</label>
+            <input type="tel" id="celular" class="input-padrao" placeholder="(00) 00000-0000">
+
+            <label for="mensagem" id="mensagem"> Mensagem</label>
+            <textarea cols="90" rows="10" placeholder=" Descreva o tipo de atendimento, sujestão, reclamação, etc..."
+                required></textarea>
+
+            <fieldset>
+                <br />
+                <legend>Como prefere nosso contato?</legend>
+
+                <label for="email-radio"> <input type="radio" name="contato" value="email-radio"> Email</label>
+
+                <label for="telefone-radio"> <input type="radio" name="contato" value="telefone-radio"
+                        id="radio-telefone"> Telefone</label>
+
+                <label for="wpp-radio"> <input type="radio" name="contato" value="wpp-radio" id="wpp-radio" checked>
+                    WhatsApp</label>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horario de preferencia para ser atendido? </legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label> <input type="checkbox" class="checkbox" checked> Aceito receber novidades e descontos por
+                email.</label>
+
+            <input type="submit" value="Enviar" class="btn-enviar">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Seg</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quar</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sext</td>
+                    <td>10h - 22h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <a href="https://github.com/maysvx"> clique aqui: https://github.com/maysvx</a>
+        <p>Julho/2022</p>
+    </footer>
 
 </body>
 
