@@ -48,60 +48,43 @@ nav {
     padding-left: 20px;
 }
 
-#banner {
-    height: 20rem;
-    width: 100%;
-}
-
 h1 {
+    color: hotpink;
+    font-size: 20px;
+}
+
+.produtos {
+    display: inline-flex;
     text-align: center;
-    color: #F8FAFD;
-    font-size: 30px;
-
-}
-
-.txt-index {
-    text-align: center;
-    margin: 20px 10px 10px 10px;
-}
-
-strong {
-    color: rgb(224, 94, 120);
-}
-
-#missao {
-    color: rgb(224, 94, 120);
-}
-
-.beneficios {
-    background-color: rgba(250, 168, 218, 0.542);
-    border-radius: 10px;
-    padding: 5px 5px 5px 5px;
-}
-
-.txt-beneficios {
-    text-align: center;
-}
-
-ul {
-    display: inline-block;
     vertical-align: top;
-    padding-left: 25px;
-}
-
-.img-secundaria {
-    padding-left: 20%;
 
 }
 
-.div-principal {
+.imagens-icons {
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+
+}
+
+.imagens-icons:hover {
+    transform: scale(1.2);
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tamanho-div {
     margin: 50px 50px;
 }
 
+
 footer {
     margin-top: 12%;
-    text-align: center;
     margin-bottom: 5%;
+    text-align: center;
 
 }
 
